@@ -1,10 +1,10 @@
 @ECHO OFF
-del latinmunich_xmltv-movistar-spain_todo.gz
-del latinmunich_xmltv-movistar-spain_todo
+del guide.xml
+del guide.xml.gz@raw=true
 del EPG_TDT_MOVISTAR_TV_HarryElSuzio_auto
-wget http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz 
-7zG.exe e latinmunich_xmltv-movistar-spain_todo.gz 
-ren latinmunich_xmltv-movistar-spain_todo EPG_TDT_MOVISTAR_TV_HarryElSuzio_auto
-del latinmunich_xmltv-movistar-spain_todo.gz
-del latinmunich_xmltv-movistar-spain_todo
+wget https://github.com/MPAndrew/EpgGratis/blob/master/guide.xml.gz?raw=true 
+7zG.exe e guide.xml.gz@raw=true
+ren guide.xml EPG_TDT_MOVISTAR_TV_HarryElSuzio_auto
+del guide.xml
+del guide.xml.gz@raw=true
 exit
